@@ -1,0 +1,11 @@
+//Before adding this lines to your index.html or index.php file. create a file with name ip_log.tx in the same folder where your index.html or index.php file present.
+//This code will log the ip of the person who visited the website.
+//Please use it for educational purposes only iam not responsible if you miss use this code.
+
+<?php
+$ip = $_SERVER['REMOTE_ADDR']; //storing the victim ip to ip variable
+$logFile = 'ip_log.txt'; //assigning logfile name to variable
+
+// Append the IP address to the log file
+file_put_contents($logFile, $ip . "\n", FILE_APPEND);
+?>
