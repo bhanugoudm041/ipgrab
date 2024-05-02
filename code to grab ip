@@ -1,4 +1,4 @@
-//Before adding this lines to your index.html or index.php file. create a file with name ip_log.tx in the same folder where your index.html or index.php file present.
+//Before adding this lines to your index.php file. create a file with name ip_log.txt in the same folder where your index.php file present.
 //This code will log the ip of the person who visited the website.
 //Please use it for educational purposes only iam not responsible if you miss use this code.
 
